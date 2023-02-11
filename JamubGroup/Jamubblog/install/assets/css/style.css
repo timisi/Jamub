@@ -1,0 +1,176 @@
+body {
+    background: url(../img/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #444 !important;
+    font-size: 15px;
+}
+.logo-cnt {
+    text-align: center;
+    color: #fff;
+    padding: 60px 0 30px 0;
+}
+
+.logo-cnt h1{
+    font-size: 22px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.logo-cnt p{
+    margin: 0;
+}
+
+.install-box {
+    width: 100%;
+    padding: 30px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 4px;
+    display: block;
+    float: left;
+    margin-bottom: 100px;
+}
+
+.form-input {
+    box-shadow: none !important;
+    border: 1px solid #ddd;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 20px;
+}
+
+.form-input:focus {
+    border-color: #0494b1 !important;
+}
+
+.btn-custom{
+    background-color: #0494b1 !important;
+    border-color:#0494b1 !important;
+    border: 0 none;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    min-width: 105px;
+    padding: 0 20px;
+    text-shadow: none;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+}
+
+.btn-custom:hover, .btn-custom:active, .btn-custom:focus{
+    background-color: #0494b1;
+    border-color:#0494b1;
+    opacity: .8;
+}
+
+.steps {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.step {
+    float: left;
+    display: block;
+    padding: 0 5px;
+    position: relative;
+    width: 33.33%;
+    text-align: center;
+}
+
+.step-icon {
+    background: #ddd;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 4px;
+    width: 40px;
+    text-align: center;
+    margin:  auto;
+}
+
+.step p {
+    color: #ccc;
+}
+
+.step.active p {
+    color: #0494b1;
+}
+
+.step.active .step-icon {
+    background: #0494b1;
+    font-size: 22px;
+    height: 48px;
+    line-height: 48px;
+    margin-top: 0;
+    width: 48px;
+}
+
+.step-progress {
+    background: #ddd;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 54px;
+    width: 100%;
+}
+.step-progress-line {
+    background: #0494b1;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.step-contents{
+    float: left;
+    display: block;
+    width: 100%;
+}
+.tab-content{
+    width: 100%;
+    float: left;
+    display: block;
+}
+.tab-footer{
+    width: 100%;
+    float: left;
+    display: block;
+}
+.buttons{
+    display: block;
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+.step-title{
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.alert{
+    text-align: center;
+}
+.alert strong{
+    font-weight: 500 !important;
+}

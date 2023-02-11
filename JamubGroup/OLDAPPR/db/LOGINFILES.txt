@@ -1,0 +1,6 @@
+Email 						password
+gafa3@gmail.com					bridget    	STAFF
+akinalabi@gmail.com				akin123    	STAFF
+tunmiseobalola@gmail.com			tunmise123	STAFF
+knath@gmail.com				      richard    	HOD
+admin@gmail.com					admin123   	ADMIN/REGISTRA

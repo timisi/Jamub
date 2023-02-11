@@ -1,0 +1,6 @@
+[07-Dec-2022 11:01:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1698): Access denied for user 'root'@'localhost' in /home/jamubgroup/public_html/staffappraisalapp/includes/config.php on line 8
+[07-Dec-2022 11:01:00 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/jamubgroup/public_html/staffappraisalapp/includes/config.php on line 8
+[07-Dec-2022 11:01:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1698): Access denied for user 'root'@'localhost' in /home/jamubgroup/public_html/staffappraisalapp/includes/config.php on line 8
+[07-Dec-2022 11:01:15 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/jamubgroup/public_html/staffappraisalapp/includes/config.php on line 8
+[07-Dec-2022 13:42:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1698): Access denied for user 'root'@'localhost' in /home/jamubgroup/public_html/staffappraisalapp/includes/config.php on line 8
+[07-Dec-2022 13:42:03 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/jamubgroup/public_html/staffappraisalapp/includes/config.php on line 8

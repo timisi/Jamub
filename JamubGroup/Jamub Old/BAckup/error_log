@@ -1,0 +1,7 @@
+[16-Dec-2020 06:39:59 UTC] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'basic_setting' of non-object in /home/jamubgroup/public_html/core/app/Providers/AppServiceProvider.php:47
+Stack trace:
+#0 /home/jamubgroup/public_html/core/app/Providers/AppServiceProvider.php(47): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/jamubgrou...', 47, Array)
+#1 /home/jamubgroup/public_html/core/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesEvents.php(164): App\Providers\AppServiceProvider->App\Providers\{closure}(Object(Illuminate\View\View))
+#2 /home/jamubgroup/public_html/core/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(344): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}('composing: erro...', Array)
+#3 /home/jamubgroup/public_html/core/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(196): Illuminate\Events\Dispatcher->Illuminate\Events\{closure}('composing: erro...', Array)
+#4 /home/jamubgroup/public_html/core/vendor/laravel/framework/src/Il in /home/jamubgroup/public_html/core/app/Providers/AppServiceProvider.php on line 47
