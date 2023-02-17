@@ -1,0 +1,85 @@
+{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{ 
+    min-height: 100vh;
+}
+li{
+    list-style: none; 
+    color: white; 
+}
+h1{
+    color: white
+}
+.side-bar{
+    position: fixed;
+    background: #FF6600;
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.side-bar .logo-name{
+   height: 10vh;
+   display: flex;
+   align-item: center;
+   justify-content: center;
+}
+.side-bar li{
+    font-size: 24px;
+    padding: 10px 40px;
+    display:flex;
+    align-item: center;
+}
+.side-bar li :hover{
+    background: white;
+    color: #25041d;
+}
+.container{
+   position: absolute;
+   right: 0;
+   width: 80vw;
+   height: 100vh;
+   background: #f1f1f1;
+   }    
+   .container .header{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 80vw;
+        height: 10vh;
+        background: white;
+        display: flex;
+        align-item: center;
+        justify-content: center;
+        box-shadow: 0 4px 8px 0 rgb(0,0,0.2);
+   }
+   .container .header .nav
+   {
+    width: 90%
+    display: flex;
+    align-items: center;
+
+   }
+   .container .header ,nav .search{
+    flex: 3;
+    background: #FF6600; 
+   }
+   .container .header .nav .search input[type=text]{
+    biorder: none;
+    background: #f1f1f1;
+    padding: 10px;
+    width: 50%;
+   }
+   .container .header .nav .search button {
+        width: 40px
+        height: 40px
+        width: none;
+   }
+   .container .header .nav .user{
+     flex: 1;
+    background: palevioletred;
+}

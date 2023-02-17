@@ -1,0 +1,423 @@
+﻿<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+/*
+-----------------
+Language: German
+-----------------
+*/
+$lang["posts"] = "Beiträge";
+$lang["pending_posts"] = "Ausstehende Beiträge";
+$lang["more_info"] = "Mehr Info";
+$lang["users"] = "Benutzer";
+$lang["index"] = "Index";
+
+//tables
+$lang["last_comments"] = "Letzte Kommentare";
+$lang["last_comments_exp"] = "Sie können die letzten Kommentare hier sehen";
+$lang["last_contact_messages"] = "Letzte Kontaktnachrichten";
+$lang["last_contact_messages_exp"] = "Sie können die letzten Kontaktnachrichten hier sehen";
+$lang["latest_users"] = "Neueste Benutzer";
+$lang["latest_users_exp"] = "Sie können die zuletzt registrierten Benutzer hier sehen";
+
+//forms & tables
+$lang["id"] = "Id";
+$lang["name"] = "Name";
+$lang["comment"] = "Kommentar";
+$lang["date"] = "Datum";
+$lang["date_added"] = "Hinzugefügt am";
+$lang["message"] = "Nachricht";
+$lang["email"] = "E-Mail";
+$lang["post"] = "Beitrag";
+$lang["username"] = "Benutzername";
+$lang["user"] = "Benutzer";
+$lang["slug"] = "URL-Text";
+$lang["about_me"] = "Über mich";
+$lang["view_all"] = "Alle ansehen";
+$lang["yes"] = "Ja";
+$lang["no"] = "Nein";
+$lang["show"] = "Anzeigen";
+$lang["hide"] = "Verbergen";
+$lang["options"] = "Einstellungen";
+$lang["select_an_option"] = "Wähle eine Option";
+$lang["edit"] = "Bearbeiten";
+$lang["delete"] = "Löschen";
+$lang["select"] = "Auswählen";
+$lang["save_changes"] = "Änderungen speichern";
+$lang["select_category"] = "Wählen Sie eine Kategorie";
+$lang["custom"] = "Custom";
+$lang["default"] = "Default";
+$lang["close"] = "Schließen";
+$lang["enable"] = "Aktivieren";
+$lang["disable"] = "Deaktivieren";
+$lang["video"] = "Video";
+$lang["admin"] = "Administrator";
+$lang["panel"] = "Panel";
+$lang["view_site"] = "Website anzeigen";
+$lang["logout"] = "Ausloggen";
+$lang["online"] = "online";
+$lang["main_navigation"] = "MAIN NAVIGATION";
+
+//pages
+$lang["home"] = "Start";
+$lang["pages"] = "Seiten";
+$lang["page"] = "Seite";
+$lang["add_page"] = "Seite hinzufügen";
+$lang["add_post"] = "Beitrag hinzufügen";
+$lang["featured_posts"] = "Featured Beiträge";
+$lang["slider_posts"] = "Slider Beiträge";
+$lang["breaking_news"] = "Aktuelle Beiträge";
+$lang["recommended_posts"] = "Empfohlene Beiträge";
+$lang["add_video"] = "Video hinzufügen";
+$lang["widgets"] = "Widgets";
+$lang["widget"] = "Widget";
+$lang["add_widget"] = "Widget hinzufügen";
+$lang["polls"] = "Umfragen";
+$lang["poll"] = "Umfrage";
+$lang["add_poll"] = "Umfrage hinzufügen";
+$lang["gallery"] = "Galerie";
+$lang["gallery_categories"] = "Galerie Kategorien";
+$lang["images"] = "Bilder";
+$lang["contact_messages"] = "Nachrichten";
+$lang["comments"] = "Kommentare";
+$lang["newsletter"] = "Newsletter";
+$lang["ad_spaces"] = "Werbefläche";
+$lang["update_profile"] = "Profil aktualisieren";
+$lang["profile"] = "Profil";
+$lang["font_options"] = "Schriftoptionen";
+$lang["fonts"] = "Schriftarten";
+$lang["seo_tools"] = "Seo-Werkzeuge";
+$lang["seo_options"] = "Seo-Einstellungen";
+$lang["social_login_configuration"] = "Soziale-Medien";
+$lang["configurations"] = "Konfigurationen";
+$lang["preferences"] = "Voreinstellungen";
+$lang["visual_settings"] = "Layout Einstellungen";
+$lang["settings"] = "Einstellungen";
+
+//category
+$lang["categories"] = "Kategorien";
+$lang["category"] = "Kategorie";
+$lang["subcategories"] = "Unterkategorien";
+$lang["subcategory"] = "Unterkategorie";
+$lang["add_category"] = "Kategorie hinzufügen";
+$lang["category_name"] = "Kategoriename";
+$lang["slug_exp"] = "Wird automatisch generiert, falls nicht ausgefüllt.";
+$lang["meta_tag"] = "Meta-Tag";
+$lang["color"] = "Farbe";
+$lang["show_at_homepage"] = "Auf der Homepage anzeigen";
+$lang["category_block_style"] = "Kategorie Block Stil";
+
+$lang["confirm_category"] = "Sind Sie sicher, dass Sie diese Kategorie löschen möchten?";
+$lang["confirm_image"] = "Sind Sie sicher, dass Sie dieses Bild löschen möchten?";
+$lang["confirm_page"] = "Sind Sie sicher, dass Sie diese Seite löschen möchten?";
+$lang["confirm_poll"] = "Sind Sie sicher, dass Sie diese Umfrage löschen möchten?";
+$lang["confirm_post"] = "Sind Sie sicher, dass Sie diesen Beitrag löschen möchten?";
+$lang["confirm_widget"] = "Sind Sie sicher, dass Sie dieses Widget löschen möchten?";
+$lang["confirm_comment"] = "Sind Sie sicher, dass Sie diesen Kommentar löschen möchten?";
+$lang["confirm_message"] = "Sind Sie sicher, dass Sie diese Nachricht löschen möchten?";
+$lang["confirm_email"] = "Sind Sie sicher, dass Sie diese E-Mail löschen möchten?";
+$lang["confirm_user"] = "Sind Sie sicher, dass Sie diesen Benutzer löschen möchten?";
+$lang["confirm_ban"] = "Sind Sie sicher, dass Sie diesen Benutzer sperren möchten?";
+$lang["confirm_remove_ban"] = "Sind Sie sicher, dass Sie die Sperrung für diesen Benutzer aufheben möchten?";
+$lang["confirm_link"] = "Möchten Sie diesen Link wirklich löschen?";
+$lang["confirm_rss"] = "Möchten Sie diesen Feed wirklich löschen?";
+$lang["confirm_posts"] = "Sind Sie sicher, dass Sie ausgewählte Beiträge löschen möchten?";
+$lang["confirm_comments"] = "Möchten Sie die ausgewählten Kommentare wirklich löschen?";
+
+$lang["add_subcategory"] = "Unterkategorie hinzufügen";
+$lang["parent_category"] = "Hauptkategorie";
+$lang["update_category"] = "Kategorie aktualisieren";
+$lang["update_subcategory"] = "Update Unterkategorie";
+$lang["add_image"] = "Bild hinzufügen";
+$lang["update_image"] = "Bild aktualisieren";
+
+$lang["title"] = "Titel";
+$lang["summary"] = "Zusammenfassung";
+$lang["description"] = "Beschreibung";
+$lang["image"] = "Bild";
+$lang["select_image"] = "Bild auswählen";
+
+$lang["location"] = "Position";
+$lang["top_menu"] = "Topleiste";
+$lang["main_menu"] = "Hauptnavigation";
+$lang["footer"] = "Footernavigation";
+$lang["dont_add_menu"] = "Zu keinem Menü hinzufügen";
+$lang["show_only_registered"] = "Nur für registrierte Benutzer sichtbar";
+$lang["show_title"] = "Titel anzeigen";
+$lang["show_breadcrumb"] = "Breadcrumb anzeigen";
+$lang["show_right_column"] = "Rechte Sidebar anzeigen";
+$lang["page_type"] = "Seitentyp";
+$lang["update_page"] = "Seite aktualisieren";
+
+$lang["question"] = "Frage";
+$lang["option_1"] = "Antwort 1";
+$lang["option_2"] = "Antwort 2";
+$lang["option_3"] = "Antwort 3";
+$lang["option_4"] = "Antwort 4";
+$lang["option_5"] = "Antwort 5";
+$lang["option_6"] = "Antwort 6";
+$lang["option_7"] = "Antwort 7";
+$lang["option_8"] = "Antwort 8";
+$lang["option_9"] = "Antwort 9";
+$lang["option_10"] = "Antwort 10";
+$lang["optional"] = "Optional";
+$lang["status"] = "Status";
+$lang["active"] = "Aktiv";
+$lang["inactive"] = "Inaktiv";
+$lang["update_poll"] = "Umfrage aktualisieren";
+$lang["view_result"] = "Ergebnis anzeigen";
+$lang["total_vote"] = "Gesamtabstimmung:";
+
+$lang["tags"] = "Tags";
+$lang["type_tag"] = "Trage das Tag ein und bestätige mit Enter";
+$lang["optional_url"] = "Optionale URL";
+$lang["main_image"] = "Hauptbild";
+$lang["additional_images"] = "Zusätzliche Bilder";
+$lang["content"] = "Inhalt";
+$lang["visibility"] = "Sichtbarkeit";
+$lang["author"] = "Autor";
+
+$lang["add_featured"] = "Zu den Featured-Beiträgen hinzufügen";
+$lang["remove_featured"] = "Von den Featured-Beiträgen entfernen";
+$lang["add_breaking"] = "Zum Ticker hinzufügen";
+$lang["remove_breaking"] = "Vom Ticker entfernen";
+$lang["add_recommended"] = "Zu den Empfohlenen-Beiträgen hinzufügen";
+$lang["remove_recommended"] = "Von den Empfohlenen-Beiträgen entfernen";
+$lang["add_slider"] = "Zum Slider hinzufügen";
+$lang["remove_slider"] = "Vom Slider entfernen";
+$lang["featured_order"] = "Featured Sortierung";
+$lang["slider_order"] = "Slider Sortierung";
+
+$lang["approve"] = "Genehmigen";
+$lang["slider"] = "Slider";
+$lang["featured"] = "Featured";
+$lang["recommended"] = "Empfohlen";
+$lang["breaking"] = "Ticker";
+$lang["only_registered"] = "Nur registriert";
+
+$lang["update_post"] = "Post aktualisieren";
+$lang["keywords"] = "Schlüsselwörter";
+$lang["video_embed_code"] = "Video-Code einbetten";
+$lang["video_thumbnails"] = "Video Thunmbnail";
+$lang["image_for_video"] = "Video Bild";
+$lang["or"] = "oder";
+$lang["add_image_url"] = "Bild-URL hinzufügen";
+$lang["example"] = "Beispiel";
+$lang["update_video"] = "Video aktualisieren";
+$lang["order"] = "Reihenfolge im Menü";
+$lang["order_1"] = "Sortierung";
+$lang["update_widget"] = "Widget aktualisieren";
+$lang["upload_video"] = "Video Hochladen";
+
+//ad spaces
+$lang["select_ad_spaces"] = "Wählen Sie die Anzeigenfläche aus";
+$lang["ad_space"] = "Werbefläche";
+$lang["header_top_ad_space"] = "Header";
+$lang["index_top_ad_space"] = "Index (Top)";
+$lang["index_bottom_ad_space"] = "Index (Unterseite)";
+$lang["post_top_ad_space"] = "Beitragsseite Details (Top)";
+$lang["post_bottom_ad_space"] = "Beitragsseite Details (Unterseite)";
+$lang["posts_top_ad_space"] = "Beitragsseite (Top)";
+$lang["posts_bottom_ad_space"] = "Beitragsseite (Unterseite)";
+$lang["category_top_ad_space"] = "Kategorie (Top)";
+$lang["category_bottom_ad_space"] = "Kategorie (Unterseite)";
+$lang["tag_top_ad_space"] = "Tag (Top)";
+$lang["tag_bottom_ad_space"] = "Tag (Unterseite)";
+$lang["search_top_ad_space"] = "Suchseite (Top)";
+$lang["search_bottom_ad_space"] = "Suchseite (Unterseite)";
+$lang["profile_top_ad_space"] = "Profil (Top)";
+$lang["profile_bottom_ad_space"] = "Profil (Unterseite)";
+$lang["reading_list_top_ad_space"] = "Lese liste (Top)";
+$lang["reading_list_bottom_ad_space"] = "Lese liste (Unterseite)";
+$lang["sidebar_top_ad_space"] = "Sidebar (Top)";
+$lang["sidebar_bottom_ad_space"] = "Sidebar (Unterseite)";
+$lang["banner"] = "Banner";
+$lang["paste_ad_code"] = "Anzeigencode";
+$lang["upload_your_banner"] = "Erstellen Sie einen Anzeigencode";
+$lang["paste_ad_url"] = "Anzeigen-URL";
+
+$lang["primary_font"] = "Haupt-Schriftart";
+$lang["secondary_font"] = "Titel-Schriftart";
+$lang["tertiary_font"] = "Beitrags- & Seiten-Schriftart";
+$lang["send_email_registered"] = "Senden Sie eine E-Mail an registrierte Benutzer";
+$lang["subject"] = "Betreff";
+$lang["send_email"] = "E-Mail senden";
+$lang["registered_emails"] = "Registrierte E-Mails";
+
+$lang["registration_system"] = "Registrierungssystem";
+$lang["comment_system"] = "Kommentarsystem";
+$lang["rss"] = "RSS";
+$lang["show_featured_section"] = "Featured-Bereich anzeigen";
+$lang["show_videos_homepage"] = "Zeige Videos auf der Homepage";
+$lang["show_latest_posts_homepage"] = "Zeige neueste Beiträge auf der Homepage";
+$lang["show_news_ticker"] = "News-Ticker anzeigen";
+$lang["show_post_author"] = "Beitragsautor anzeigen";
+$lang["show_post_dates"] = "Beitragsdatum anzeigen";
+$lang["show_post_view_counts"] = "Beitragsaufrufe anzeigen";
+$lang["site_title"] = "Webseiten-Titel";
+$lang["site_description"] = "Webseiten-Beschreibung";
+$lang["google_analytics"] = "Google Analytics";
+$lang["google_analytics_code"] = "Google Analytics Code";
+
+//Sitemap
+$lang["generate_sitemap"] = "Sitemap generieren";
+$lang["frequency"] = "Änderungsintervall";
+$lang["frequency_exp"] = "Dieser Wert gibt an, wie häufig sich der Inhalt einer bestimmten URL ändern wird";
+$lang["none"] = "Keine Angabe";
+$lang["always"] = "Immer";
+$lang["hourly"] = "Stündlich";
+$lang["daily"] = "Täglich";
+$lang["weekly"] = "Wöchentlich";
+$lang["monthly"] = "Monatlich";
+$lang["yearly"] = "Jährlich";
+$lang["never"] = "Nie";
+$lang["last_modification"] = "Letzte Änderung";
+$lang["last_modification_exp"] = "Die Uhrzeit, zu der die URL zuletzt geändert wurde";
+$lang["server_response"] = "Antwort des Servers";
+$lang["use_this_date"] = "Dieses Datum verwenden";
+$lang["priority"] = "Priorität";
+$lang["priority_exp"] = "Die Priorität einer bestimmten URL im Verhältnis zu anderen Seiten auf derselben Website";
+$lang["priority_none"] = "Priorität automatisch kalkulieren";
+$lang["generate"] = "Generieren";
+
+//Settings
+$lang["general_settings"] = "Allgemeine Einstellungen";
+$lang["email_settings"] = "E-Mail Einstellungen";
+$lang["contact_settings"] = "Kontakt Einstellungen";
+$lang["social_media_settings"] = "Soziale-Medien Einstellungen";
+$lang["facebook_comments"] = "Facebook Kommentare";
+$lang["language"] = "Sprache";
+$lang["english"] = "Englisch";
+$lang["french"] = "Französisch";
+$lang["german"] = "Deutsch";
+$lang["italian"] = "Italienisch";
+$lang["portuguese"] = "Portugiesisch";
+$lang["russian"] = "Russisch";
+$lang["spanish"] = "Spanisch";
+$lang["turkish"] = "Türkisch";
+$lang["app_name"] = "Anwendungsname";
+$lang["footer_about_section"] = "Footer About Abschnitt";
+$lang["optional_url_name"] = "Optionaler URL-Schaltflächenname";
+$lang["pagination_number_posts"] = "Anzahl der Beiträge pro Seite";
+$lang["mail_protocol"] = "Protokoll";
+$lang["smtp"] = "SMTP";
+$lang["mail"] = "E-Mail";
+$lang["mail_title"] = "Titel";
+$lang["mail_host"] = "Host";
+$lang["mail_port"] = "Port";
+$lang["mail_username"] = "Benutzername";
+$lang["mail_password"] = "Passwort";
+$lang["gmail_smtp"] = "Gmail SMTP";
+$lang["address"] = "Adresse";
+$lang["phone"] = "Telefon";
+$lang["google_map_key"] = "Google Map-API-Schlüssel";
+$lang["latitude"] = "Breitengrad";
+$lang["longitude"] = "Längengrad";
+$lang["contact_text"] = "Kontakt Text";
+$lang["url"] = "URL";
+$lang["facebook_comments_code"] = "Facebook Kommentar Plugin-Code";
+$lang["app_id"] = "App ID";
+$lang["app_secret"] = "App Secret";
+$lang["client_id"] = "Client ID";
+$lang["client_secret"] = "Client Secret";
+$lang["change_avatar"] = "Avatar ändern";
+$lang["social_accounts"] = "Soziale Accounts";
+$lang["avatar"] = "Avatar";
+$lang["role"] = "Rolle";
+$lang["banned"] = "Sperrung";
+$lang["change_user_role"] = "Benutzerrolle ändern";
+$lang["ban_user"] = "Benutzer sperren";
+$lang["remove_ban"] = "Sperrung aufheben";
+$lang["save"] = "Speichern";
+
+$lang["site_color"] = "Farbe der Webseite";
+$lang["block_color"] = "Farbe der Topleiste & der Kategorieblöcke";
+$lang["post_list_style"] = "Beitrags-Listenstil";
+$lang["logo"] = "Header Logo";
+$lang["change_logo"] = "Logo ändern";
+$lang["logo_footer"] = "Footer Logo";
+$lang["favicon"] = "Favicon";
+$lang["change_favicon"] = "Favicon ändern";
+$lang["show_on_menu"] = "Im Menü anzeigen";
+$lang["menu_limit"] = "Menü-Hauptlinks (Anzahl sichtbarer Elemente)";
+$lang["copyright"] = "Copyright";
+
+//messages
+$lang["msg_suc_added"] = "erfolgreich hinzugefügt!";
+$lang["msg_suc_updated"] = "erfolgreich aktualisiert!";
+$lang["msg_suc_deleted"] = "erfolgreich gelöscht!";
+$lang["msg_error"] = "Es ist ein Fehler aufgetreten. Versuchen Sie es erneut!";
+$lang["msg_slug_used"] = "Der eingegebene Slug wird von einem anderen Benutzer verwendet!";
+$lang["msg_email_sent"] = "E-Mail erfolgreich gesendet!";
+$lang["msg_role_changed"] = "Benutzerrolle erfolgreich geändert!";
+$lang["msg_user_banned"] = "Benutzer erfolgreich gesperrt!";
+$lang["msg_ban_removed"] = "Benutzer-Sperrung erfolgreich aufgehoben!";
+$lang["msg_delete_subcategories"] = "Bitte zuerst die Subkategorie(n) dieser Kategorie löschen!!";
+$lang["msg_delete_posts"] = "Bitte löschen Sie zuerst Beiträge, die zu dieser Kategorie gehören!";
+$lang["msg_delete_images"] = "Bitte löschen Sie zuerst Bilder, die zu dieser Kategorie gehören!";
+$lang["msg_add_slider"] = "Beitrag zum Slider hinzugefügt!";
+$lang["msg_remove_slider"] = "Beitrag vom Slider entfernt!";
+$lang["msg_add_featured"] = "Beitrag zu den Featured-Beiträgen hinzugefügt!";
+$lang["msg_remove_featured"] = "Beitrag aus den Featured-Beiträgen entfernt!";
+$lang["msg_add_breaking"] = "Beitrag zum Ticker hinzugefügt!";
+$lang["msg_remove_breaking"] = "Beitrag aus dem Ticker entfernt!";
+$lang["msg_add_recommended"] = "Beitrag zu den Empfohlenen-Beiträgen hinzugefügt!";
+$lang["msg_remove_recommended"] = "Beitrag aus den Empfohlenen-Beiträgen entfernt!";
+$lang["msg_post_approved"] = "Beitrag genehmigt!";
+$lang["msg_img_uploaded"] = "Bild erfolgreich hochgeladen!";
+$lang["msg_page_delete"] = "Standard-Seiten können nicht gelöscht werden!";
+$lang["msg_widget_delete"] = "Standard-Widgets können nicht gelöscht werden!";
+
+$lang["scheduled_posts"] = "Geplante Beiträge";
+$lang["scheduled_post"] = "Geplanter Beitrag";
+$lang["days_remaining"] = "Verbleibende Tage";
+$lang["date_publish"] = "Veröffentlichungsdatum";
+$lang["publish"] = "Veröffentlichen";
+$lang["msg_published"] = "Eintrag erfolgreich veröffentlicht!";
+$lang["get_video_from_url"] = "Hol dir Video von Url";
+$lang["video_url"] = "Video-URL";
+$lang["get_video"] = "Holen Sie sich Video";
+
+$lang["audio"] = "Audio";
+$lang["add_audio"] = "Audio Hinzufügen";
+$lang["audio_file"] = "Audiodatei";
+$lang["select_file"] = "Datei aussuchen";
+$lang["audio_name"] = "Audio Name";
+$lang["musician"] = "Musiker";
+$lang["download_button"] = "Schaltfläche herunterladen";
+$lang["post_type"] = "Beitragstyp";
+
+$lang["navigation"] = "Navigation";
+$lang["add_link"] = "Hinzufügen Von Menü-Link";
+$lang["update_link"] = "Aktualisieren Sie den Menü-Link";
+$lang["link"] = "Link";
+$lang["parent_link"] = "Hauptlink";
+$lang["post_details"] = "Beitragsseite Details";
+$lang["audios"] = "Audios";
+$lang["upload"] = "Hochladen";
+$lang["play_list"] = "Wiedergabeliste";
+$lang["play_list_empty"] = "Die Playlist ist leer.";
+$lang["reset"] = "Zurücksetzen";
+$lang["save_draft"] = "Als Entwurf speichern";
+$lang["rss_feeds"] = "RSS-Feeds";
+$lang["drafts"] = "Entwürfe";
+$lang["all"] = "Alle";
+$lang["search"] = "Suche";
+$lang["filter"] = "Filter";
+
+$lang["feed"] = "Feed";
+$lang["import_rss_feed"] = "RSS-Feed importieren";
+$lang["update_rss_feed"] = "Aktualisieren Sie den RSS-Feed";
+$lang["feed_name"] = "Feed Name";
+$lang["feed_url"] = "Feed URL";
+$lang["number_of_posts_import"] = "Anzahl der Beiträge zu importieren";
+$lang["auto_update"] = "Auto Update";
+$lang["show_read_more_button"] = "Zeigen Sie Lesen Sie mehr Schaltfläche";
+$lang["read_more_button_text"] = "Lesen Sie mehr Schaltfläche Text";
+$lang["invalid_url"] = "Ungültige URL!";
+$lang["vote_permission"] = "Stimmberechtigung";
+$lang["all_users_can_vote"] = "Alle Benutzer können abstimmen";
+$lang["registered_users_can_vote"] = "Nur registrierte Benutzer können abstimmen";
+$lang["head_code"] = "HTML Head Code";
+
+?>
